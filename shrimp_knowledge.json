@@ -1,0 +1,126 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+            "responses": [
+                "Hello! I'm your shrimp disease expert. How can I help you today?",
+                "Hi there! Ask me anything about shrimp diseases or farming.",
+                "Greetings! What shrimp-related questions do you have today?"
+            ]
+        },
+        {
+            "tag": "white_spot_syndrome",
+            "patterns": [
+                "What is white spot syndrome",
+                "My shrimp have white spots",
+                "White spot disease symptoms",
+                "How to treat white spots on shrimp",
+                "White spot virus",
+                "Causes of WSSV",
+                "Can WSSV spread to other shrimp?",
+                "How to prevent WSSV?"
+            ],
+            "responses": [
+                "White Spot Syndrome Virus (WSSV) is a highly contagious viral disease affecting shrimp. Symptoms include white calcium deposits on the shell, lethargy, and high mortality rates. Treatment involves isolating infected shrimp, maintaining water quality, and possibly using immunostimulants. Prevention is key as there's no cure once infected.",
+                "WSSV can spread through contaminated water, infected shrimp, and equipment. Preventive measures include strict biosecurity, regular water quality checks, and using pathogen-free shrimp seeds."
+            ]
+        },
+        {
+            "tag": "black_spot_disease",
+            "patterns": [
+                "What is black spot disease in shrimp?",
+                "How to identify black spot disease?",
+                "Causes of black spots on shrimp",
+                "Treatment for black spot disease"
+            ],
+            "responses": [
+                "Black Spot Disease in shrimp is caused by bacterial or fungal infections that result in dark patches on the exoskeleton. It can also be caused by rough handling or poor water conditions. Treatment involves maintaining proper water quality and using antibiotics or antifungal treatments if necessary."
+            ]
+        },
+        {
+            "tag": "black_gill_disease",
+            "patterns": [
+                "Shrimp with black gills",
+                "Black gill disease symptoms",
+                "Darkened gills in shrimp",
+                "What causes black gills?",
+                "Treatment for black gill disease"
+            ],
+            "responses": [
+                "Black Gill Disease is usually caused by parasitic, fungal, or bacterial infections, or by accumulated sediment on the gills. The gills appear dark or blackened due to melanization, a defensive response from the shrimp. Improve water quality, reduce organic matter in the pond, and consider approved treatments based on the specific cause."
+            ]
+        },
+        {
+            "tag": "healthy_shrimp",
+            "patterns": [
+                "How to keep shrimp healthy?",
+                "Signs of healthy shrimp",
+                "Best shrimp farming practices"
+            ],
+            "responses": [
+                "Healthy shrimp are active, have a uniform color, eat well, and have no visible lesions or discoloration. To maintain shrimp health, ensure optimal water quality, provide balanced nutrition, and follow biosecurity measures to prevent infections."
+            ]
+        },
+        {
+            "tag": "disease_detection",
+            "patterns": [
+                "How do you detect shrimp diseases?",
+                "Best methods for disease detection in shrimp",
+                "Shrimp disease diagnosis techniques"
+            ],
+            "responses": [
+                "Shrimp diseases can be detected through visual inspection, water quality monitoring, PCR tests, and AI-based image detection systems like DeepShrimp. Early detection helps in effective disease management."
+            ]
+        },
+        {
+            "tag": "water_quality",
+            "patterns": [
+                "Best water parameters for shrimp",
+                "Ideal water conditions",
+                "Shrimp water pH",
+                "Ammonia levels for shrimp",
+                "Water quality shrimp farming"
+            ],
+            "responses": [
+                "For most shrimp species, maintain water temperature between 25-30°C, pH 7.0-8.5, dissolved oxygen above 4 mg/L, ammonia below 0.1 mg/L, and nitrite below 0.01 mg/L. Poor water quality stresses shrimp and makes them susceptible to diseases."
+            ]
+        },
+        {
+            "tag": "cleaning_maintenance",
+            "patterns": [
+                "How to clean shrimp ponds?",
+                "Best practices for shrimp pond maintenance",
+                "How often should I clean my shrimp pond?"
+            ],
+            "responses": [
+                "Regular pond cleaning is essential for disease prevention. Remove uneaten food, control algae growth, ensure proper aeration, and conduct periodic water changes to maintain optimal water conditions."
+            ]
+        },
+        {
+            "tag": "cost_consideration",
+            "patterns": [
+                "How much does shrimp farming cost?",
+                "Cost of disease treatment for shrimp",
+                "What is the investment needed for shrimp farming?"
+            ],
+            "responses": [
+                "Shrimp farming costs depend on factors like pond size, feed, equipment, and biosecurity measures. Treatment for diseases can also be expensive if preventive measures are not taken. Regular monitoring reduces long-term costs."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you", "Goodbye", "Thanks, bye", "Exit"],
+            "responses": [
+                "Goodbye! Feel free to return if you have more questions about shrimp.",
+                "Have a great day! Come back anytime for more shrimp farming advice.",
+                "Thanks for chatting! Good luck with your shrimp."
+            ]
+        }
+    ],
+    "default_responses": [
+        "I'm not sure I understand. Could you rephrase your question about shrimp or shrimp diseases?",
+        "I don't have information on that specific shrimp topic yet. Would you like to know about common diseases like white spot syndrome or vibriosis instead?",
+        "I'm still learning about shrimp. Could you ask something about water quality, common diseases, or general shrimp farming?"
+    ]
+}
